@@ -39,3 +39,21 @@ The **Airline Reservation System** leverages a **Microservices Architecture** fo
 - **SLF4J** 📖: Provides logging capabilities.
 - **MySQL** 🗄️: Relational database for storing flights, reservations, and user data.
 - **Spring Email** 📧: Sends automated booking and cancellation emails.
+
+---
+
+### **Prerequisites** 🛠️
+
+Before you begin, make sure you have the following installed:
+
+- **Java JDK 11 or later**: Download from [Oracle's website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or [OpenJDK](https://openjdk.java.net/).
+- **Postman**: Install for API testing from [Postman's website](https://www.postman.com/downloads/).
+- **Eclipse IDE**: Download from [Eclipse's website](https://www.eclipse.org/downloads/packages/release/2023-09/r) or use your preferred IDE.
+
+## **Installation** 🛠️
+
+### **Backend Setup**
+-  Clone the backend repository:
+   ```bash
+   git clone https://github.com/thevishalchothe/airline-reservation-system-application.git
+   cd airline-reservation-system-application
