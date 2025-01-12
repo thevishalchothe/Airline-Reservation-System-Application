@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "flight.service.url",
+  "type": "java.lang.String",
+  "description": "A description for 'flight.service.url'"
+}]}
