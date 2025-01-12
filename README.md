@@ -6,25 +6,17 @@ The **Airline Reservation System** is a modern web application designed to simpl
 
 ---
 
-## **Features** ✨
-
-### **Backend Features** 🌐
-- **Book Ticket** 🎟️: Enables passengers to book tickets for available flights, with **confirmation emails** sent upon successful booking.
-- **Cancel Ticket** 🛑🛬: Allows passengers to cancel bookings and sends **cancellation emails** for notification.
-- **View Reservation** ✅: Retrieves details of a specific reservation using the ticket ID.
-- **View All Reservations** 📅: Lists all reservations for a specific flight.
-- **Flight Availability** 🛫: Displays available seats for flights.
-- **Email Notifications** 📧: Sends timely updates for bookings, cancellations, and flight status changes.
-
----
-
 ## **Architecture** 🏗️
 
 The **Airline Reservation System** leverages a **Microservices Architecture** for scalability and performance:
 
-### **Backend Services** 🛠️
-- **Flight Service** 🛫: Manages flight schedules, seat availability, and details.
-- **Reservation Service** 🎫: Handles ticket bookings, cancellations, and user reservations.
+---
+
+## How It Works 🛠️
+
+1. **Flight Service** manages all flight-related operations, such as searching for flights, updating seat availability, and storing flight details.
+2. **Reservation Service** allows users to book or cancel tickets. Upon booking, it checks flight availability, deducts seats, and sends a booking confirmation email.
+3. **Email Notifications** are sent to users upon booking or cancellation, providing confirmation or updates on the status of their reservations.
 
 ---
 
