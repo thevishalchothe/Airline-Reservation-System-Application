@@ -10,6 +10,44 @@ The **Airline Reservation System** is a modern web application designed to simpl
 
 The **Airline Reservation System** leverages a **Microservices Architecture** for scalability and performance:
 
+
+## Backend Services 🛠️
+
+### **Flight Service 🛫**
+The **Flight Service** is responsible for managing flight-related data. It handles the following tasks:
+
+- **Flight Schedules & Management**: 
+  - Manages flight schedules, including departure times, flight routes, and aircraft details.
+  
+- **Seat Availability**: 
+  - Keeps track of available seats for each flight and manages seat reservations.
+  
+- **Flight Information**: 
+  - Provides detailed flight information such as flight ID, departure and arrival times, and available seats.
+  
+- **Booking Integration**: 
+  - Works closely with the **Reservation Service** to update seat availability and flight details after a booking or cancellation.
+
+---
+
+### **Reservation Service 🎫**
+The **Reservation Service** handles ticket bookings, cancellations, and reservation management. Its responsibilities include:
+
+- **Ticket Booking**: 
+  - Manages the booking of flight tickets, including seat selection and passenger details.
+  
+- **Reservation Management**: 
+  - Handles the creation, update, and retrieval of flight reservations. Users can view or modify their reservations.
+  
+- **Cancellation Handling**: 
+  - Manages the cancellation of reservations, updating seat availability and sending cancellation notifications to users.
+  
+- **User Notifications**: 
+  - Sends email notifications for booking confirmations, cancellations, and other related updates.
+  
+- **Flight Integration**: 
+  - Communicates with the **Flight Service** to fetch flight details and update seat availability after a booking or cancellation.
+
 ---
 
 ## How It Works 🛠️
